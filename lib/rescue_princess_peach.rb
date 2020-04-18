@@ -1,7 +1,7 @@
-require spec/spec_helper.rb
+require "spec_helper"
+ 
 def rescue_princess_peach
-  status = "rescued"
-  puts "Hooray! Mario has rescued Princess Peach."
+  puts "Hooray! Mario has rescued Princess Peach").to_stdout
+    expect{puts status}.to raise_error(NameError)
+  end
 end
-
-rescue_princess_peach
