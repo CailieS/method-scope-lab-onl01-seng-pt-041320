@@ -1,6 +1,4 @@
-def catch_phrase(phrase)
-  puts "It's-a me, Mario!"
-  phrase = "It's a me, Mario@"
+def rescue_princess_peach
+  status = "rescued"
+  puts "Hooray! Mario has rescued Princess Peach."
 end
-
-catch_phrase(phrase)
